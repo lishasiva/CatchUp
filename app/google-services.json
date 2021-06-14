@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "862683518367",
+    "firebase_url": "https://cathup-af955-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "cathup-af955",
+    "storage_bucket": "cathup-af955.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:862683518367:android:c98cb95913bad6332399aa",
+        "android_client_info": {
+          "package_name": "com.example.catchup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "862683518367-l3456s02uma1notln7uoj6v8f9n8l8h2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByAmbE0vSU7gDIF8IxPg7Dr5s6PANGfdU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "862683518367-l3456s02uma1notln7uoj6v8f9n8l8h2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

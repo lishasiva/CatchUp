@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.DiyetisyeneSorActivity">
+
+    <include layout="@layout/actionbar_app"
+        android:id="@+id/actionbarLogin" />
+
+    <TextView
+        android:id="@+id/txtAsk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Diyetisyenine Soru Sor"
+        android:textColor="@color/colorPinky"
+        android:textStyle="italic"
+        android:layout_below="@+id/actionbarLogin"
+        app:layout_constraintTop_toBottomOf="@id/actionbarLogin"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine"
+        android:layout_width="360dp"
+        android:layout_height="194dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="115dp"
+        android:hint="Sormak istediğiniz soruyu yazınız."/>
+
+    <Button
+        android:id="@+id/btnCalculate2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GÖNDER"
+        android:background="@color/colorLightPink"
+        android:textColor="@color/colorPrimaryLight"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="170dp"
+        android:layout_above="@+id/editTextTextMultiLine"
+        app:layout_constraintTop_toBottomOf="@id/editTextTextMultiLine"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

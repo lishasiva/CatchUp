@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.WaterActivity">
+
+    <include layout="@layout/actionbar_app"
+        android:id="@+id/actionbarLogin" />
+
+    <TextView
+        android:id="@+id/txtWater"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tüketilen Su Miktarı"
+        android:textColor="@color/colorPinky"
+        android:textStyle="italic"
+        android:layout_below="@+id/actionbarLogin"
+        app:layout_constraintTop_toBottomOf="@id/actionbarLogin"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtWater2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Günlük tükettiğiniz Su Miktarını Giriniz"
+        app:layout_constraintTop_toBottomOf="@id/txtWater"
+        android:layout_below="@id/txtWater"
+        android:layout_marginStart="20dp" />
+
+    <EditText
+        android:id="@+id/txtWater3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtWater2"
+        app:layout_constraintTop_toBottomOf="@id/txtWater2"
+        android:hint="Tüketilen Su Miktarı"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp" />
+
+    <TextView
+        android:id="@+id/txtWater4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Günlük Su Hedefini Litre Olarak Giriniz"
+        app:layout_constraintTop_toBottomOf="@id/txtWater3"
+        android:layout_below="@id/txtWater3"
+        android:layout_marginStart="20dp" />
+
+    <EditText
+        android:id="@+id/txtWater5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtWater2"
+        app:layout_constraintTop_toBottomOf="@id/txtWater4"
+        android:hint="Örnek:2.7 Litre"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp" />
+
+
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HESAPLA VE GÖNDER"
+        android:background="@color/colorLightPink"
+        android:textColor="@color/colorPrimaryLight"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="170dp"
+        android:layout_above="@+id/txtWater5"
+        app:layout_constraintTop_toBottomOf="@id/txtWater5"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.WorkoutActivity">
+
+    <include layout="@layout/actionbar_app"
+        android:id="@+id/actionbarLogin" />
+
+    <TextView
+        android:id="@+id/txtWork"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Günlük Egzersiz Programı"
+        android:textColor="@color/colorPinky"
+        android:textStyle="italic"
+        android:layout_below="@+id/actionbarLogin"
+        app:layout_constraintTop_toBottomOf="@id/actionbarLogin"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/egzersizpro"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:contentDescription="@string/app_name"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:src="@drawable/egzersiz"
+        app:layout_constraintTop_toBottomOf="@id/txtWork"/>
+
+    <TextView
+        android:id="@+id/txtWork2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Haftalık Kilo Kaybı"
+        android:textColor="@color/colorPinky"
+        android:textStyle="italic"
+        android:layout_below="@+id/egzersizpro"
+        app:layout_constraintTop_toBottomOf="@+id/egzersizpro"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtWork3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bu Hafta Kaç Kilo Verdiniz"
+        app:layout_constraintTop_toBottomOf="@id/txtWork2"
+        android:layout_below="@id/txtWork2"
+        android:layout_marginStart="20dp" />
+
+    <EditText
+        android:id="@+id/txtWork4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtWater2"
+        app:layout_constraintTop_toBottomOf="@id/txtWork3"
+        android:hint="Kg ile Kilo Kaybını Giriniz"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp" />
+
+    <TextView
+        android:id="@+id/txtWork5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Size Belirlediğimiz Kilo Hedefi: 55 kg"
+        app:layout_constraintTop_toBottomOf="@id/txtWork4"
+        android:layout_below="@id/txtWork4"
+        android:layout_marginStart="20dp" />
+
+    <Button
+        android:id="@+id/btnCalculate2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GÖNDER"
+        android:background="@color/colorLightPink"
+        android:textColor="@color/colorPrimaryLight"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="170dp"
+        android:layout_above="@+id/txtWork5"
+        app:layout_constraintTop_toBottomOf="@id/txtWork5"
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">CatchUp</string>
+    <string name="create_new_account">YENİ ÜYELİK OLUŞTUR</string>
+    <string name="log_in">ÜYE GİRİŞİ</string>
+    <string name="username">Kullanıcı Adı</string>
+    <string name="name">Adınız</string>
+    <string name="surname">Soyadınız</string>
+    <string name="email">Email</string>
+    <string name="password">Şifre Giriniz</string>
+    <string name="client">Müşteri</string>
+    <string name="diet">Diyetisyen</string>
+    <string name="low_create_new_account">Yeni Üyelik Oluştur</string>
+    <string name="finish_account">Üyeliği Tamamla</string>
+    <string name="log">Giriş Yap</string>
+    <string name="enter">Giriş Yap</string>
+    <string name="hello">Hoşgeldin</string>
+    <string name="helloname">Beste</string>
+    <string name="search">Arama</string>
+    <string name="dietlist">Diyet Listesi</string>
+    <string name="water">Günlük Su Takibi</string>
+    <string name="workout">Egzersiz ve Kilo</string>
+    <string name="ask">Diyetisyene Sor</string>
+    <string name="drink">İçilen Su Miktarı</string>
+    <string name="su">Su Miktarı</string>
+    <string name="important">Günlük su tüketimi miktarı; yaş, kilo, sağlık durumu, egzersiz gibi etmenlere göre değişiklik gösterebilir. Uzmanlar, yetişkin bir kadının günde 2.7 litre, erkeğin ise 3.7 litre sıvı almasını önermektedirler.</string>
+    <string name="ana_sayfa">Ana Sayfa</string>
+    <string name="messages">Mesajlar</string>
+    <string name="setting">Ayarlar</string>
+    <string name="accounts">Üye Bilgileri</string>
+    <string name="admin">ADMİN GİRİŞİ</string>
+</resources>
